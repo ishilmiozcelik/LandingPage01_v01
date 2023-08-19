@@ -1,0 +1,62 @@
+.top-container{
+position: relative;
+border-top:    1.5px solid blue;
+border-bottom: 1.5px solid blue;
+width: auto;
+height: 5.0rem;
+
+}
+
+.logo{
+height: 25%;
+margin-top: 2rem;
+margin-left: 20%;
+}
+
+.btn_job{
+float: right;
+margin-right: 20%;
+margin-top: 1.5rem;
+font-size: 12px;
+font-weight: 600;
+border: 1px solid blue;
+color: blue;
+background-color: white;
+padding: 3px 25px 3px 25px;
+
+}
+
+.main-container{
+    background-color: rgba(250,236,210,255);
+    width: auto;
+    height: 400px;
+    position: relative;
+
+}
+
+.main-elements{
+    
+    
+    position: absolute;
+    top: 20%; left: 20%;
+    width: 30%;
+
+}
+
+.mainelement{
+
+padding-bottom: 40px;
+font-weight: 200;
+
+}
+
+#bluebutton{
+    border: 0px;
+    background-color:blue;
+    color: white;
+    padding-bottom: 0px;
+    padding: 5px 25px 5px 25px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
