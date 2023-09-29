@@ -117,12 +117,14 @@ color: green;
 
 .img-1, .img-2, .img-3 {
   float: left;
-  width: 33.33%;
-  border: solid 1px red;
+  width: 30%;
+  margin-right: 30px;
+
 }
 
 .img-container{
 margin: 5% 20% 0 20%;
+padding-bottom: 10%;
 }
 
 .img-container:after {
