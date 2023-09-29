@@ -1,6 +1,6 @@
 * {
-    box-sizing: border-box;
-  }
+box-sizing: border-box;
+}
 
 .top-container{
 position: relative;
@@ -8,10 +8,7 @@ border-top: 1.5px solid blue;
 border-bottom: 1.5px solid blue;
 width: auto;
 height: 5.0rem;
-
 }
-
-
 
 .logo{
 height: 25%;
@@ -29,15 +26,13 @@ border: 1px solid blue;
 color: blue;
 background-color: azure;
 padding: 3px 25px 3px 25px;
-
 }
 
-
 .btn_job:hover {
-    background-color: blue;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  }
+background-color: blue;
+color: white;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
 .main-container{
 background-color: rgba(250,236,210,255);
@@ -53,8 +48,9 @@ width: 30%;
 }
 
 .mainelement{
-padding-bottom: 40px;
-font-weight: 200;
+padding-bottom: 20px;
+font-weight: 50;
+opacity: 0.8;
 }
 
 #bluebutton{
@@ -65,14 +61,13 @@ padding-bottom: 0px;
 padding: 5px 25px 5px 25px;
 font-size: 12px;
 font-weight: 600;
+
 }
 #bluebutton:hover{
 background-color: white;
 color: blue;
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
-
-
 
 .video{
 float: right;
