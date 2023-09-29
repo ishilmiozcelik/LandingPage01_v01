@@ -1,4 +1,4 @@
-* {
+*{
 box-sizing: border-box;
 }
 
@@ -107,6 +107,7 @@ color: green;
 
 .float-container {
 height: 170px;
+display: flex;
 }
 
 .float-child-1 {
@@ -116,10 +117,8 @@ padding-left: 20%;
 display: inline-block;
    
 }
-
 .float-child-1 h3{
 padding-bottom: 2%;
-
 }
 
 
@@ -128,8 +127,6 @@ padding-top: 1%;
 height: 150px;
 width: 45%;
 float: right;
-  
-
 }
 
 .subtexthead{
@@ -137,10 +134,32 @@ padding-left: 25%;
 font-size: 70px;
 font-weight: 600;
 color: green;
-
 }
 
-.subtext{
-padding-left: 15%;
-
+.subtext-1{
+  padding-left: 16%;
 }
+
+.subtext-2{
+  padding-left: 17%;
+}
+
+.img-1, .img-2, .img-3 {
+  float: left;
+  width: 33.33%;
+  border: solid 1px red;
+}
+
+
+.img-container{
+margin: 5% 20% 0 20%;
+}
+
+
+.img-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
